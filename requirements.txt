@@ -1,0 +1,23 @@
+# Ingestion: OCR + PDF handling
+pytesseract==0.3.13
+pdf2image==1.17.0
+pypdf==5.6.0
+pdfplumber==0.11.10
+
+# OCR text cleanup via Groq (gpt-oss-120b)
+groq==0.30.0
+
+# Embeddings + local vector store
+chromadb>=1.0
+
+# Backend API
+fastapi==0.115.6
+uvicorn==0.34.0
+python-dotenv==1.0.1
+pydantic==2.10.4
+
+# Tests
+pytest==8.3.4
+
+# Phase 5: formal eval infrastructure
+deepeval==4.2.1

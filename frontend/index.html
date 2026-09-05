@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ProofDesk</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <header id="header">
+      <h1>ProofDesk</h1>
+      <p>Ask about the documents on file — answers are grounded and cited, or you'll be told when nothing matches.</p>
+    </header>
+
+    <main id="messages" aria-live="polite"></main>
+
+    <form id="composer">
+      <input
+        id="question-input"
+        type="text"
+        placeholder="Ask a question, e.g. “What AWS certification does Ali have?”"
+        autocomplete="off"
+      />
+      <button id="send-button" type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
